@@ -6,8 +6,8 @@ const app: Application = express();
 //<------------------ All Router Import-------------->
 
 import { globalErrorHandeler } from './apps/middlewares/globalErrorHandelar';
-import router from './apps/routes';
 import httpStatus from 'http-status';
+import router from './apps/routes';
 
 // import { ApiError } from './errors/ApiError'
 
@@ -20,8 +20,26 @@ app.use(express.urlencoded({ extended: true }));
 
 // router
 app.use('/api/v1', router);
+
+app.get('/', (req: Request, res: Response) => {
+  res.send('server is runing');
+});
 //global Error Handelar
 app.use(globalErrorHandeler);
+
+// app.use('/', (req: Request, res: Response, next: NextFunction)=>{
+//   res.status(httpStatus.FOUND).json({
+//     success: true,
+//     message: 'server started',
+//     errorMessages: [
+//       {
+//         path: req.originalUrl,
+//         message: 'server started',
+//       },
+//     ],
+//   });
+//   next();
+// })
 
 //handle not found
 app.use((req: Request, res: Response, next: NextFunction) => {

@@ -8,6 +8,7 @@ import { ApiError } from '../../errors/ApiError';
 import { ZodError } from 'zod';
 import handleZodError from '../../errors/handleZodError';
 import { handleCastError } from '../../errors/handleCastError';
+import { logger } from '../../shared/logger';
 
 export const globalErrorHandeler: ErrorRequestHandler = (
   error,

@@ -1,0 +1,820 @@
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:10:57.791Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:10:57.813Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:12:19.204Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:12:19.220Z'
+}
+{
+  service: 'user-service',
+  errors: {
+    password: ValidatorError: Path `password` is required.
+        at validate (C:\server-site\node_modules\mongoose\lib\schematype.js:1365:13)
+        at SchemaString.SchemaType.doValidate (C:\server-site\node_modules\mongoose\lib\schematype.js:1349:7)
+        at C:\server-site\node_modules\mongoose\lib\document.js:2947:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `password` is required.',
+        type: 'required',
+        path: 'password',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    email: ValidatorError: Path `email` is required.
+        at validate (C:\server-site\node_modules\mongoose\lib\schematype.js:1365:13)
+        at SchemaString.SchemaType.doValidate (C:\server-site\node_modules\mongoose\lib\schematype.js:1349:7)
+        at C:\server-site\node_modules\mongoose\lib\document.js:2947:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `email` is required.',
+        type: 'required',
+        path: 'email',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'email',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Users validation failed',
+  level: 'info',
+  message: 'Project Run Development Mode ~  Users validation failed: password: Path `password` is required., email: Path `email` is required.',
+  stack: 'ValidationError: Users validation failed: password: Path `password` is required., email: Path `email` is required.\n' +
+    '    at model.Document.invalidate (C:\\server-site\\node_modules\\mongoose\\lib\\document.js:3162:32)\n' +
+    '    at C:\\server-site\\node_modules\\mongoose\\lib\\document.js:2955:17\n' +
+    '    at C:\\server-site\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  label: 'UM',
+  timestamp: '2023-08-21T15:12:55.624Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:13:58.759Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:13:58.770Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:14:11.582Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:14:11.593Z'
+}
+{
+  service: 'user-service',
+  errors: {
+    password: ValidatorError: Path `password` is required.
+        at validate (C:\server-site\node_modules\mongoose\lib\schematype.js:1365:13)
+        at SchemaString.SchemaType.doValidate (C:\server-site\node_modules\mongoose\lib\schematype.js:1349:7)
+        at C:\server-site\node_modules\mongoose\lib\document.js:2947:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `password` is required.',
+        type: 'required',
+        path: 'password',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    email: ValidatorError: Path `email` is required.
+        at validate (C:\server-site\node_modules\mongoose\lib\schematype.js:1365:13)
+        at SchemaString.SchemaType.doValidate (C:\server-site\node_modules\mongoose\lib\schematype.js:1349:7)
+        at C:\server-site\node_modules\mongoose\lib\document.js:2947:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `email` is required.',
+        type: 'required',
+        path: 'email',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'email',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Users validation failed',
+  level: 'info',
+  message: 'Project Run Development Mode ~  Users validation failed: password: Path `password` is required., email: Path `email` is required.',
+  stack: 'ValidationError: Users validation failed: password: Path `password` is required., email: Path `email` is required.\n' +
+    '    at model.Document.invalidate (C:\\server-site\\node_modules\\mongoose\\lib\\document.js:3162:32)\n' +
+    '    at C:\\server-site\\node_modules\\mongoose\\lib\\document.js:2955:17\n' +
+    '    at C:\\server-site\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  label: 'UM',
+  timestamp: '2023-08-21T15:15:23.253Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:15:41.269Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:15:41.279Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:15:52.323Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:15:52.336Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:16:07.090Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:16:07.101Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:16:27.837Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:16:27.848Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:16:40.658Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:16:40.666Z'
+}
+{
+  service: 'user-service',
+  errors: {
+    password: ValidatorError: Path `password` is required.
+        at validate (C:\server-site\node_modules\mongoose\lib\schematype.js:1365:13)
+        at SchemaString.SchemaType.doValidate (C:\server-site\node_modules\mongoose\lib\schematype.js:1349:7)
+        at C:\server-site\node_modules\mongoose\lib\document.js:2947:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `password` is required.',
+        type: 'required',
+        path: 'password',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    email: ValidatorError: Path `email` is required.
+        at validate (C:\server-site\node_modules\mongoose\lib\schematype.js:1365:13)
+        at SchemaString.SchemaType.doValidate (C:\server-site\node_modules\mongoose\lib\schematype.js:1349:7)
+        at C:\server-site\node_modules\mongoose\lib\document.js:2947:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `email` is required.',
+        type: 'required',
+        path: 'email',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'email',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Users validation failed',
+  level: 'info',
+  message: 'Project Run Development Mode ~  Users validation failed: password: Path `password` is required., email: Path `email` is required.',
+  stack: 'ValidationError: Users validation failed: password: Path `password` is required., email: Path `email` is required.\n' +
+    '    at model.Document.invalidate (C:\\server-site\\node_modules\\mongoose\\lib\\document.js:3162:32)\n' +
+    '    at C:\\server-site\\node_modules\\mongoose\\lib\\document.js:2955:17\n' +
+    '    at C:\\server-site\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  label: 'UM',
+  timestamp: '2023-08-21T15:16:43.990Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:17:54.727Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:17:54.742Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:20:02.521Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:20:02.534Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:21:18.800Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:21:18.815Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:22:59.351Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:22:59.366Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:23:14.650Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:23:14.665Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:24:00.346Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:24:00.362Z'
+}
+{
+  service: 'user-service',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'raseddl@gmail.com' },
+  level: 'info',
+  message: 'Project Run Development Mode ~  E11000 duplicate key error collection: event-management.users index: email_1 dup key: { email: "raseddl@gmail.com" }',
+  stack: 'MongoServerError: E11000 duplicate key error collection: event-management.users index: email_1 dup key: { email: "raseddl@gmail.com" }\n' +
+    '    at C:\\server-site\\node_modules\\mongodb\\src\\operations\\insert.ts:85:25\n' +
+    '    at C:\\server-site\\node_modules\\mongodb\\src\\cmap\\connection_pool.ts:574:11\n' +
+    '    at C:\\server-site\\node_modules\\mongodb\\src\\sdam\\server.ts:384:13\n' +
+    '    at handleOperationResult (C:\\server-site\\node_modules\\mongodb\\src\\sdam\\server.ts:532:14)\n' +
+    '    at Connection.onMessage (C:\\server-site\\node_modules\\mongodb\\src\\cmap\\connection.ts:418:5)\n' +
+    '    at MessageStream.<anonymous> (C:\\server-site\\node_modules\\mongodb\\src\\cmap\\connection.ts:243:56)\n' +
+    '    at MessageStream.emit (node:events:514:28)\n' +
+    '    at processIncomingData (C:\\server-site\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:193:12)\n' +
+    '    at MessageStream._write (C:\\server-site\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:74:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  label: 'UM',
+  timestamp: '2023-08-21T15:24:24.370Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  service: 'user-service',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'raseddl@gmail.com' },
+  level: 'info',
+  message: 'Project Run Development Mode ~  E11000 duplicate key error collection: event-management.users index: email_1 dup key: { email: "raseddl@gmail.com" }',
+  stack: 'MongoServerError: E11000 duplicate key error collection: event-management.users index: email_1 dup key: { email: "raseddl@gmail.com" }\n' +
+    '    at C:\\server-site\\node_modules\\mongodb\\src\\operations\\insert.ts:85:25\n' +
+    '    at C:\\server-site\\node_modules\\mongodb\\src\\cmap\\connection_pool.ts:574:11\n' +
+    '    at C:\\server-site\\node_modules\\mongodb\\src\\sdam\\server.ts:384:13\n' +
+    '    at handleOperationResult (C:\\server-site\\node_modules\\mongodb\\src\\sdam\\server.ts:532:14)\n' +
+    '    at Connection.onMessage (C:\\server-site\\node_modules\\mongodb\\src\\cmap\\connection.ts:418:5)\n' +
+    '    at MessageStream.<anonymous> (C:\\server-site\\node_modules\\mongodb\\src\\cmap\\connection.ts:243:56)\n' +
+    '    at MessageStream.emit (node:events:514:28)\n' +
+    '    at processIncomingData (C:\\server-site\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:193:12)\n' +
+    '    at MessageStream._write (C:\\server-site\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:74:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  label: 'UM',
+  timestamp: '2023-08-21T15:24:29.796Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:27:59.047Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:27:59.060Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:28:16.750Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:28:16.765Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:29:04.470Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:29:04.482Z'
+}
+{
+  service: 'user-service',
+  errors: {
+    email: ValidatorError: Path `email` is required.
+        at validate (C:\server-site\node_modules\mongoose\lib\schematype.js:1365:13)
+        at SchemaString.SchemaType.doValidate (C:\server-site\node_modules\mongoose\lib\schematype.js:1349:7)
+        at C:\server-site\node_modules\mongoose\lib\document.js:2947:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `email` is required.',
+        type: 'required',
+        path: 'email',
+        value: ''
+      },
+      kind: 'required',
+      path: 'email',
+      value: '',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Users validation failed',
+  level: 'info',
+  message: 'Project Run Development Mode ~  Users validation failed: email: Path `email` is required.',
+  stack: 'ValidationError: Users validation failed: email: Path `email` is required.\n' +
+    '    at model.Document.invalidate (C:\\server-site\\node_modules\\mongoose\\lib\\document.js:3162:32)\n' +
+    '    at C:\\server-site\\node_modules\\mongoose\\lib\\document.js:2955:17\n' +
+    '    at C:\\server-site\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  label: 'UM',
+  timestamp: '2023-08-21T15:29:04.575Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:29:44.280Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:29:44.293Z'
+}
+{
+  service: 'user-service',
+  issues: [
+    {
+      validation: 'email',
+      code: 'invalid_string',
+      message: 'Invalid email',
+      path: [ 'body', 'email' ]
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'info',
+  message: 'Project Run Development Mode ~  [\n' +
+    '  {\n' +
+    '    "validation": "email",\n' +
+    '    "code": "invalid_string",\n' +
+    '    "message": "Invalid email",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "email"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "validation": "email",\n' +
+    '    "code": "invalid_string",\n' +
+    '    "message": "Invalid email",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "email"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\server-site\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\server-site\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-21T15:29:45.110Z'
+}
+{
+  service: 'user-service',
+  issues: [
+    {
+      validation: 'email',
+      code: 'invalid_string',
+      message: 'Invalid email',
+      path: [ 'body', 'email' ]
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'info',
+  message: 'Project Run Development Mode ~  [\n' +
+    '  {\n' +
+    '    "validation": "email",\n' +
+    '    "code": "invalid_string",\n' +
+    '    "message": "Invalid email",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "email"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "validation": "email",\n' +
+    '    "code": "invalid_string",\n' +
+    '    "message": "Invalid email",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "email"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\server-site\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\server-site\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-21T15:29:50.145Z'
+}
+{
+  service: 'user-service',
+  issues: [
+    {
+      validation: 'email',
+      code: 'invalid_string',
+      message: 'Invalid email',
+      path: [ 'body', 'email' ]
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'info',
+  message: 'Project Run Development Mode ~  [\n' +
+    '  {\n' +
+    '    "validation": "email",\n' +
+    '    "code": "invalid_string",\n' +
+    '    "message": "Invalid email",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "email"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "validation": "email",\n' +
+    '    "code": "invalid_string",\n' +
+    '    "message": "Invalid email",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "email"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\server-site\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\server-site\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-21T15:29:51.569Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:30:45.550Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:30:45.561Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:30:51.939Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:30:51.950Z'
+}
+{
+  service: 'user-service',
+  issues: [
+    {
+      validation: 'email',
+      code: 'invalid_string',
+      message: 'Invalid email',
+      path: [ 'body', 'email' ]
+    },
+    {
+      code: 'too_small',
+      minimum: 6,
+      type: 'string',
+      inclusive: true,
+      exact: false,
+      message: 'String must contain at least 6 character(s)',
+      path: [ 'body', 'password' ]
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'info',
+  message: 'Project Run Development Mode ~  [\n' +
+    '  {\n' +
+    '    "validation": "email",\n' +
+    '    "code": "invalid_string",\n' +
+    '    "message": "Invalid email",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "email"\n' +
+    '    ]\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "code": "too_small",\n' +
+    '    "minimum": 6,\n' +
+    '    "type": "string",\n' +
+    '    "inclusive": true,\n' +
+    '    "exact": false,\n' +
+    '    "message": "String must contain at least 6 character(s)",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "password"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "validation": "email",\n' +
+    '    "code": "invalid_string",\n' +
+    '    "message": "Invalid email",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "email"\n' +
+    '    ]\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "code": "too_small",\n' +
+    '    "minimum": 6,\n' +
+    '    "type": "string",\n' +
+    '    "inclusive": true,\n' +
+    '    "exact": false,\n' +
+    '    "message": "String must contain at least 6 character(s)",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "password"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\server-site\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\server-site\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-21T15:30:52.102Z'
+}
+{
+  service: 'user-service',
+  issues: [
+    {
+      code: 'too_small',
+      minimum: 6,
+      type: 'string',
+      inclusive: true,
+      exact: false,
+      message: 'String must contain at least 6 character(s)',
+      path: [ 'body', 'password' ]
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'info',
+  message: 'Project Run Development Mode ~  [\n' +
+    '  {\n' +
+    '    "code": "too_small",\n' +
+    '    "minimum": 6,\n' +
+    '    "type": "string",\n' +
+    '    "inclusive": true,\n' +
+    '    "exact": false,\n' +
+    '    "message": "String must contain at least 6 character(s)",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "password"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "too_small",\n' +
+    '    "minimum": 6,\n' +
+    '    "type": "string",\n' +
+    '    "inclusive": true,\n' +
+    '    "exact": false,\n' +
+    '    "message": "String must contain at least 6 character(s)",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "password"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\server-site\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\server-site\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-21T15:31:00.641Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:31:44.909Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:31:44.920Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:32:46.957Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:32:46.969Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:34:10.018Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T15:34:10.029Z'
+}
