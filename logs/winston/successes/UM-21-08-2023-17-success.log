@@ -1,0 +1,122 @@
+{
+  service: 'user-service',
+  level: 'info',
+  message: 'Database Connected fail :: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:206:11)\n' +
+    '    at NativeConnection.openUri (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\connection.js:738:34)\n' +
+    '    at Mongoose.connect (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\index.js:404:15)\n' +
+    '    at C:\\event\\event-management-server\\src\\server.ts:21:20\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\event\\event-management-server\\src\\server.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\event\\event-management-server\\src\\server.ts:4:12)\n' +
+    '    at DataBase (C:\\event\\event-management-server\\src\\server.ts:28:12)\n' +
+    '    at Object.<anonymous> (C:\\event\\event-management-server\\src\\server.ts:44:1)',
+  label: 'UM',
+  timestamp: '2023-08-21T11:00:30.413Z'
+}
+{
+  service: 'user-service',
+  level: 'info',
+  message: 'Database Connected fail :: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:206:11)\n' +
+    '    at NativeConnection.openUri (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\connection.js:738:34)\n' +
+    '    at Mongoose.connect (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\index.js:404:15)\n' +
+    '    at C:\\event\\event-management-server\\src\\server.ts:21:20\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\event\\event-management-server\\src\\server.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\event\\event-management-server\\src\\server.ts:4:12)\n' +
+    '    at DataBase (C:\\event\\event-management-server\\src\\server.ts:28:12)\n' +
+    '    at Object.<anonymous> (C:\\event\\event-management-server\\src\\server.ts:44:1)',
+  label: 'UM',
+  timestamp: '2023-08-21T11:12:41.429Z'
+}
+{
+  service: 'user-service',
+  level: 'info',
+  message: 'Database Connected fail :: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:206:11)\n' +
+    '    at NativeConnection.openUri (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\connection.js:738:34)\n' +
+    '    at Mongoose.connect (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\index.js:404:15)\n' +
+    '    at C:\\event\\event-management-server\\src\\server.ts:21:20\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\event\\event-management-server\\src\\server.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\event\\event-management-server\\src\\server.ts:4:12)\n' +
+    '    at DataBase (C:\\event\\event-management-server\\src\\server.ts:28:12)\n' +
+    '    at Object.<anonymous> (C:\\event\\event-management-server\\src\\server.ts:44:1)',
+  label: 'UM',
+  timestamp: '2023-08-21T11:12:52.377Z'
+}
+{
+  service: 'user-service',
+  level: 'info',
+  message: 'Database Connected fail :: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:206:11)\n' +
+    '    at NativeConnection.openUri (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\connection.js:738:34)\n' +
+    '    at Mongoose.connect (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\index.js:404:15)\n' +
+    '    at C:\\event\\event-management-server\\src\\server.ts:21:20\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\event\\event-management-server\\src\\server.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\event\\event-management-server\\src\\server.ts:4:12)\n' +
+    '    at DataBase (C:\\event\\event-management-server\\src\\server.ts:28:12)\n' +
+    '    at Object.<anonymous> (C:\\event\\event-management-server\\src\\server.ts:44:1)',
+  label: 'UM',
+  timestamp: '2023-08-21T11:13:25.707Z'
+}
+{
+  service: 'user-service',
+  level: 'info',
+  message: 'Database Connected fail :: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:206:11)\n' +
+    '    at NativeConnection.openUri (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\connection.js:738:34)\n' +
+    '    at Mongoose.connect (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\index.js:404:15)\n' +
+    '    at C:\\event\\event-management-server\\src\\server.ts:21:20\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\event\\event-management-server\\src\\server.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\event\\event-management-server\\src\\server.ts:4:12)\n' +
+    '    at DataBase (C:\\event\\event-management-server\\src\\server.ts:28:12)\n' +
+    '    at Object.<anonymous> (C:\\event\\event-management-server\\src\\server.ts:44:1)',
+  label: 'UM',
+  timestamp: '2023-08-21T11:16:59.788Z'
+}
+{
+  service: 'user-service',
+  level: 'info',
+  message: 'Database Connected fail :: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:206:11)\n' +
+    '    at NativeConnection.openUri (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\connection.js:738:34)\n' +
+    '    at Mongoose.connect (C:\\event\\event-management-server\\node_modules\\mongoose\\lib\\index.js:404:15)\n' +
+    '    at C:\\event\\event-management-server\\src\\server.ts:21:20\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\event\\event-management-server\\src\\server.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\event\\event-management-server\\src\\server.ts:4:12)\n' +
+    '    at DataBase (C:\\event\\event-management-server\\src\\server.ts:28:12)\n' +
+    '    at Object.<anonymous> (C:\\event\\event-management-server\\src\\server.ts:44:1)',
+  label: 'UM',
+  timestamp: '2023-08-21T11:17:09.148Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T11:30:12.484Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T11:30:12.499Z'
+}

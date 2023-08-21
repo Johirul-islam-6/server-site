@@ -1,0 +1,15 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 1
+  },
+  "auditLog": "C:\\event\\event-management-server\\logs\\winston\\successes\\.88d64c2de7a441dc8e4cf809ec5426f9a9bff6d5-audit.json",
+  "files": [
+    {
+      "date": 1692615630397,
+      "name": "C:\\event\\event-management-server\\logs\\winston\\successes\\UM-21-08-2023-17-success.log",
+      "hash": "838f3194b36608568e2cf1488fd1aba35eec95abdb770bcd066c6ea9107eaf59"
+    }
+  ],
+  "hashType": "sha256"
+}
