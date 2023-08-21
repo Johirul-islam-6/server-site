@@ -1,11 +1,11 @@
 import { z } from 'zod';
 
-// zod validation error setup
+// create a User zod validation
 const createUserZodSchema = z.object({
   body: z.object({
     email: z
       .string({
-        required_error: 'role is required',
+        required_error: 'email is required',
       })
       .email(),
     password: z
@@ -16,6 +16,21 @@ const createUserZodSchema = z.object({
   }),
 });
 
+// Login a user zod validation
+const loginUserZodSchema = z.object({
+  body: z.object({
+    email: z
+      .string({
+        required_error: 'email is required',
+      })
+      .email(),
+    password: z.string({
+      required_error: 'password is required',
+    }),
+  }),
+});
+
 export const UserValidation = {
   createUserZodSchema,
+  loginUserZodSchema,
 };

@@ -1,0 +1,288 @@
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:00:20.461Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:00:20.472Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:01:48.375Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:01:48.394Z'
+}
+{
+  service: 'user-service',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'rasel@gmail.com' },
+  level: 'info',
+  message: 'Project Run Development Mode ~  E11000 duplicate key error collection: event-management.users index: email_1 dup key: { email: "rasel@gmail.com" }',
+  stack: 'MongoServerError: E11000 duplicate key error collection: event-management.users index: email_1 dup key: { email: "rasel@gmail.com" }\n' +
+    '    at C:\\server-site\\node_modules\\mongodb\\src\\operations\\insert.ts:85:25\n' +
+    '    at C:\\server-site\\node_modules\\mongodb\\src\\cmap\\connection_pool.ts:574:11\n' +
+    '    at C:\\server-site\\node_modules\\mongodb\\src\\sdam\\server.ts:384:13\n' +
+    '    at handleOperationResult (C:\\server-site\\node_modules\\mongodb\\src\\sdam\\server.ts:532:14)\n' +
+    '    at Connection.onMessage (C:\\server-site\\node_modules\\mongodb\\src\\cmap\\connection.ts:418:5)\n' +
+    '    at MessageStream.<anonymous> (C:\\server-site\\node_modules\\mongodb\\src\\cmap\\connection.ts:243:56)\n' +
+    '    at MessageStream.emit (node:events:514:28)\n' +
+    '    at processIncomingData (C:\\server-site\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:193:12)\n' +
+    '    at MessageStream._write (C:\\server-site\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:74:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  label: 'UM',
+  timestamp: '2023-08-21T18:02:17.246Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:03:49.780Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:03:49.793Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:05:04.783Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:05:04.794Z'
+}
+{
+  service: 'user-service',
+  issues: [
+    {
+      code: 'too_small',
+      minimum: 6,
+      type: 'string',
+      inclusive: true,
+      exact: false,
+      message: 'String must contain at least 6 character(s)',
+      path: [ 'body', 'password' ]
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'info',
+  message: 'Project Run Development Mode ~  [\n' +
+    '  {\n' +
+    '    "code": "too_small",\n' +
+    '    "minimum": 6,\n' +
+    '    "type": "string",\n' +
+    '    "inclusive": true,\n' +
+    '    "exact": false,\n' +
+    '    "message": "String must contain at least 6 character(s)",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "password"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "too_small",\n' +
+    '    "minimum": 6,\n' +
+    '    "type": "string",\n' +
+    '    "inclusive": true,\n' +
+    '    "exact": false,\n' +
+    '    "message": "String must contain at least 6 character(s)",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "password"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\server-site\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\server-site\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-21T18:05:42.493Z'
+}
+{
+  service: 'user-service',
+  issues: [
+    {
+      code: 'too_small',
+      minimum: 6,
+      type: 'string',
+      inclusive: true,
+      exact: false,
+      message: 'String must contain at least 6 character(s)',
+      path: [ 'body', 'password' ]
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'info',
+  message: 'Project Run Development Mode ~  [\n' +
+    '  {\n' +
+    '    "code": "too_small",\n' +
+    '    "minimum": 6,\n' +
+    '    "type": "string",\n' +
+    '    "inclusive": true,\n' +
+    '    "exact": false,\n' +
+    '    "message": "String must contain at least 6 character(s)",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "password"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "too_small",\n' +
+    '    "minimum": 6,\n' +
+    '    "type": "string",\n' +
+    '    "inclusive": true,\n' +
+    '    "exact": false,\n' +
+    '    "message": "String must contain at least 6 character(s)",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "password"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\server-site\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\server-site\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-21T18:06:25.016Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:08:02.318Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:08:02.329Z'
+}
+{
+  service: 'user-service',
+  statusCode: 401,
+  level: 'info',
+  message: 'Project Run Development Mode ~  Your Password incorrect',
+  stack: 'Error: Your Password incorrect\n' +
+    '    at C:\\server-site\\src\\apps\\modules\\user\\user.services.ts:35:9\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\server-site\\src\\apps\\modules\\user\\user.services.ts:5:58)',
+  label: 'UM',
+  timestamp: '2023-08-21T18:08:03.422Z'
+}
+{
+  service: 'user-service',
+  statusCode: 401,
+  level: 'info',
+  message: 'Project Run Development Mode ~  Your Password incorrect',
+  stack: 'Error: Your Password incorrect\n' +
+    '    at C:\\server-site\\src\\apps\\modules\\user\\user.services.ts:35:9\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\server-site\\src\\apps\\modules\\user\\user.services.ts:5:58)',
+  label: 'UM',
+  timestamp: '2023-08-21T18:08:26.516Z'
+}
+{
+  service: 'user-service',
+  statusCode: 404,
+  level: 'info',
+  message: 'Project Run Development Mode ~  user does not exist',
+  stack: 'Error: user does not exist\n' +
+    '    at C:\\server-site\\src\\apps\\modules\\user\\user.services.ts:28:11\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\server-site\\src\\apps\\modules\\user\\user.services.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-21T18:08:36.084Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:09:31.595Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:09:31.607Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:10:15.553Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:10:15.563Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:10:31.757Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:10:31.767Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:10:51.527Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T18:10:51.537Z'
+}

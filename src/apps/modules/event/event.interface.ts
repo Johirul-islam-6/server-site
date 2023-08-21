@@ -1,8 +1,7 @@
 import { Model } from 'mongoose';
 
-// 1. Create an interface representing a document in MongoDB.
-
 export type IEventInterface = {
+  // event input field value created interface
   title: string;
   description: string;
   start_date: string;
@@ -11,5 +10,5 @@ export type IEventInterface = {
   email: string;
 };
 
-// Create a new Model type that knows about IUserMethods...
+// Create a new ModelEvent type that knows about ...
 export type ModelEvent = Model<IEventInterface, Record<string, unknown>>;
