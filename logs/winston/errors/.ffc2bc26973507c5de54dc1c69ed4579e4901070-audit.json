@@ -24,6 +24,16 @@
             "date": 1692630655134,
             "name": "C:\\server-site\\logs\\winston\\errors\\UM-21-08-2023-21-error.log",
             "hash": "f45d044a0b0b2f24cc52840b5a7122ed6feea261bb99e15232f0a60fd7228f92"
+        },
+        {
+            "date": 1692633952265,
+            "name": "C:\\server-site\\logs\\winston\\errors\\UM-21-08-2023-22-error.log",
+            "hash": "28f9568e7765af778c8d54db28f21b873fba95c3569e072202ecb0367461978b"
+        },
+        {
+            "date": 1692637310745,
+            "name": "C:\\server-site\\logs\\winston\\errors\\UM-21-08-2023-23-error.log",
+            "hash": "914bd7b45042983bb67192efa14cfcc49120d1281fe242c60127aaf0ea02cde5"
         }
     ],
     "hashType": "sha256"

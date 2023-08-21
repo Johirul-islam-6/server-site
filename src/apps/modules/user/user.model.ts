@@ -4,6 +4,7 @@ import bcrypt from 'bcrypt';
 import config from '../../../config';
 
 // ## Create a User Schema Model corresponding to the document interface.
+
 const userSchema = new Schema<IUser>(
   {
     email: {
@@ -16,7 +17,12 @@ const userSchema = new Schema<IUser>(
       required: true,
     },
   },
-  { timestamps: true }
+  {
+    timestamps: true,
+    toJSON: {
+      virtuals: true,
+    },
+  }
 );
 
 //## save before bcrypt the password

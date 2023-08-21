@@ -8,7 +8,7 @@ import { User } from './user.model';
 //## catchAsync is a costom Hook created | shared/catchAsync file |
 // ## sendResponse is a costom Hook reated | shared/sendResponse file |
 
-// 01. create a user
+// 01. //01. created an user functionality
 const userCreated = catchAsync(async (req: Request, res: Response) => {
   const user = req.body;
   // export (user) user.services.ts file
@@ -22,7 +22,7 @@ const userCreated = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
-// 01. get all users
+// 02. get all users functionality an business logic
 const getUsers = catchAsync(async (req: Request, res: Response) => {
   const result = await User.find({});
   res.send(result);
