@@ -1,45 +1,45 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 1
+  "keep": {
+    "days": true,
+    "amount": 1
+  },
+  "auditLog": "C:\\server-site\\logs\\winston\\errors\\.ffc2bc26973507c5de54dc1c69ed4579e4901070-audit.json",
+  "files": [
+    {
+      "date": 1692622584135,
+      "name": "C:\\server-site\\logs\\winston\\errors\\UM-21-08-2023-18-error.log",
+      "hash": "cc49b35271b955d4fe57de06366636d1188be19df45307fd91f60dd178133a8b"
     },
-    "auditLog": "C:\\server-site\\logs\\winston\\errors\\.ffc2bc26973507c5de54dc1c69ed4579e4901070-audit.json",
-    "files": [
-        {
-            "date": 1692622584135,
-            "name": "C:\\server-site\\logs\\winston\\errors\\UM-21-08-2023-18-error.log",
-            "hash": "cc49b35271b955d4fe57de06366636d1188be19df45307fd91f60dd178133a8b"
-        },
-        {
-            "date": 1692622929868,
-            "name": "C:\\server-site\\logs\\winston\\errors\\UM-21-08-2023-19-error.log",
-            "hash": "1cd910a5d95f86e91d7d8183faf41b81d67bdbdd8f8ae5157bb488bcef52bec4"
-        },
-        {
-            "date": 1692626726756,
-            "name": "C:\\server-site\\logs\\winston\\errors\\UM-21-08-2023-20-error.log",
-            "hash": "00c86fb596f0ae6514d640e7b54fc10cbabb1d9cb8839bdff3ee0a26baea534d"
-        },
-        {
-            "date": 1692630655134,
-            "name": "C:\\server-site\\logs\\winston\\errors\\UM-21-08-2023-21-error.log",
-            "hash": "f45d044a0b0b2f24cc52840b5a7122ed6feea261bb99e15232f0a60fd7228f92"
-        },
-        {
-            "date": 1692633952265,
-            "name": "C:\\server-site\\logs\\winston\\errors\\UM-21-08-2023-22-error.log",
-            "hash": "28f9568e7765af778c8d54db28f21b873fba95c3569e072202ecb0367461978b"
-        },
-        {
-            "date": 1692637310745,
-            "name": "C:\\server-site\\logs\\winston\\errors\\UM-21-08-2023-23-error.log",
-            "hash": "914bd7b45042983bb67192efa14cfcc49120d1281fe242c60127aaf0ea02cde5"
-        },
-        {
-            "date": 1692640819531,
-            "name": "C:\\server-site\\logs\\winston\\errors\\UM-22-08-2023-00-error.log",
-            "hash": "92a1d771da9c8b28b8db8fafbdcca9389ac82c27b96edf6b0820c69a9a412cf8"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1692622929868,
+      "name": "C:\\server-site\\logs\\winston\\errors\\UM-21-08-2023-19-error.log",
+      "hash": "1cd910a5d95f86e91d7d8183faf41b81d67bdbdd8f8ae5157bb488bcef52bec4"
+    },
+    {
+      "date": 1692626726756,
+      "name": "C:\\server-site\\logs\\winston\\errors\\UM-21-08-2023-20-error.log",
+      "hash": "00c86fb596f0ae6514d640e7b54fc10cbabb1d9cb8839bdff3ee0a26baea534d"
+    },
+    {
+      "date": 1692630655134,
+      "name": "C:\\server-site\\logs\\winston\\errors\\UM-21-08-2023-21-error.log",
+      "hash": "f45d044a0b0b2f24cc52840b5a7122ed6feea261bb99e15232f0a60fd7228f92"
+    },
+    {
+      "date": 1692633952265,
+      "name": "C:\\server-site\\logs\\winston\\errors\\UM-21-08-2023-22-error.log",
+      "hash": "28f9568e7765af778c8d54db28f21b873fba95c3569e072202ecb0367461978b"
+    },
+    {
+      "date": 1692637310745,
+      "name": "C:\\server-site\\logs\\winston\\errors\\UM-21-08-2023-23-error.log",
+      "hash": "914bd7b45042983bb67192efa14cfcc49120d1281fe242c60127aaf0ea02cde5"
+    },
+    {
+      "date": 1692640819531,
+      "name": "C:\\server-site\\logs\\winston\\errors\\UM-22-08-2023-00-error.log",
+      "hash": "92a1d771da9c8b28b8db8fafbdcca9389ac82c27b96edf6b0820c69a9a412cf8"
+    }
+  ],
+  "hashType": "sha256"
 }

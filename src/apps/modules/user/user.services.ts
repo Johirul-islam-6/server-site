@@ -4,9 +4,9 @@ import { IUser } from './user.interface';
 import { User } from './user.model';
 import bcrypt from 'bcrypt';
 
-// ==================> all user business logic applies to this page ====================>
+// ==============> all user business logic applies  this services page ================>
 
-// ----- single user created business logic------
+// -----> single user created business logic------>
 const createdUser = async (user: IUser): Promise<IUser | null> => {
   const createAuser = await User.create(user);
 
@@ -16,7 +16,7 @@ const createdUser = async (user: IUser): Promise<IUser | null> => {
   return createAuser;
 };
 
-// ----- Login User business logic -------
+// -----> Login User business logic ------->
 
 const loginUser = async (payload: IUser): Promise<IUser | null> => {
   const { email, password } = payload;

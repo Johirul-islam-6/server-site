@@ -6,7 +6,7 @@ import { UserServices } from './user.services';
 import { User } from './user.model';
 
 //## catchAsync is a costom Hook created | shared/catchAsync file |
-// ## sendResponse is a costom Hook reated | shared/sendResponse file |
+// ## sendResponse is a costom Hook reated | shared/sendResponse file |]
 
 //01. ==========> created an user functionality =========>
 const userCreated = catchAsync(async (req: Request, res: Response) => {
