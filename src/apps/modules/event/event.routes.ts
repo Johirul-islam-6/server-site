@@ -18,9 +18,10 @@ router.post(
 );
 
 //02. get singel event
+
 router.get('/:id', CreateEventController.singelDetailsEvent);
 
-//03. Edite singel event
+//03. Edite singel event8
 router.patch('/:id', CreateEventController.EditeEvent);
 //03. Edite singel event
 router.delete('/:id', CreateEventController.DeleteEvent);

@@ -85,7 +85,7 @@ const EditeEvent = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
-//04.  edite  Event functionality
+//04.  Delete a Event functionality
 const DeleteEvent = catchAsync(async (req: Request, res: Response) => {
   const id = req.body.id;
 

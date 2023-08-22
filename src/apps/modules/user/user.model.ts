@@ -26,7 +26,7 @@ const userSchema = new Schema<IUser>(
   }
 );
 
-//## save before bcrypt the password
+//## save before bcrypt the password //
 
 userSchema.pre('save', async function (next) {
   // eslint-disable-next-line @typescript-eslint/no-this-alias

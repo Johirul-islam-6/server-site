@@ -4,9 +4,11 @@ import { sendResponse } from '../../../shared/sendResponse';
 import httpStatus from 'http-status';
 import { UserServices } from './user.services';
 import { User } from './user.model';
+import { IUserLogin } from './user.interface';
+import config from '../../../config';
 
-//## catchAsync is a costom Hook created | shared/catchAsync file |
-// ## sendResponse is a costom Hook reated | shared/sendResponse file |]
+//## catchAsync is a costom Hook error handeling try-catch  | shared/catchAsync file |
+// ## sendResponse is a responsiv data costom Hook reated | shared/sendResponse file |]
 
 //01. ==========> created an user functionality =========>
 const userCreated = catchAsync(async (req: Request, res: Response) => {
@@ -28,12 +30,31 @@ const loginAuth = catchAsync(async (req: Request, res: Response) => {
   const loginData = req.body;
   const result = await UserServices.loginUser(loginData);
 
-  sendResponse(res, {
-    statusCode: httpStatus.OK,
-    success: true,
-    data: result,
-    message: 'A User successfully Login',
-  });
+  if (result !== null) {
+    const { refreshToken, ...others } = result;
+
+    // Set refresh token in cookies
+    const cookiesOption = {
+      secure: config.evn === 'production',
+      httpOnly: true,
+    };
+
+    res.cookie('refreshToken', refreshToken, cookiesOption);
+
+    sendResponse<IUserLogin>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      data: others,
+      message: 'A User successfully Login',
+    });
+  } else {
+    // Handle the case where login is unsuccessful
+    sendResponse<IUserLogin>(res, {
+      statusCode: httpStatus.UNAUTHORIZED,
+      success: false,
+      message: 'Login failed. Invalid credentials.',
+    });
+  }
 });
 
 // 03. ======> get all users functionality an business small logic ========>

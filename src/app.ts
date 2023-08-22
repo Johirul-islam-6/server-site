@@ -8,11 +8,13 @@ const app: Application = express();
 import { globalErrorHandeler } from './apps/middlewares/globalErrorHandelar';
 import httpStatus from 'http-status';
 import router from './apps/routes';
+import cookieParser from 'cookie-parser';
 
 // import { ApiError } from './errors/ApiError'
 
-// cors use
+// cors use & cookieparse
 app.use(cors());
+app.use(cookieParser());
 
 // parser
 app.use(express.json());
@@ -27,21 +29,7 @@ app.get('/', (req: Request, res: Response) => {
 //global Error Handelar
 app.use(globalErrorHandeler);
 
-// app.use('/', (req: Request, res: Response, next: NextFunction)=>{
-//   res.status(httpStatus.FOUND).json({
-//     success: true,
-//     message: 'server started',
-//     errorMessages: [
-//       {
-//         path: req.originalUrl,
-//         message: 'server started',
-//       },
-//     ],
-//   });
-//   next();
-// })
-
-//handle not found
+//handle route not found
 app.use((req: Request, res: Response, next: NextFunction) => {
   res.status(httpStatus.NOT_FOUND).json({
     success: false,
