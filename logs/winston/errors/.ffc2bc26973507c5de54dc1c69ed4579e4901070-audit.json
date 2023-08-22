@@ -59,6 +59,11 @@
             "date": 1692684058194,
             "name": "C:\\server-site\\logs\\winston\\errors\\UM-22-08-2023-12-error.log",
             "hash": "040511c0edd349b75a8d3bf182182e05594e9e6a2dbe70379d8a3bf63c4546e8"
+        },
+        {
+            "date": 1692688317351,
+            "name": "C:\\server-site\\logs\\winston\\errors\\UM-22-08-2023-13-error.log",
+            "hash": "98996b3d62d69b7c06374648d2672b30b7991f133bd79b57b072e8ef7112ee2c"
         }
     ],
     "hashType": "sha256"

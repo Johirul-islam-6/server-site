@@ -1,0 +1,192 @@
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T07:11:58.484Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T07:11:58.502Z'
+}
+{
+  service: 'user-service',
+  level: 'info',
+  message: 'Project Run Development Mode ~  Faild to details Event',
+  stack: 'Error: Faild to details Event\n' +
+    '    at C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:97:11\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-22T07:12:33.012Z'
+}
+{
+  service: 'user-service',
+  level: 'info',
+  message: 'Project Run Development Mode ~  Faild to details Event',
+  stack: 'Error: Faild to details Event\n' +
+    '    at C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:97:11\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-22T07:12:36.811Z'
+}
+{
+  service: 'user-service',
+  level: 'info',
+  message: 'Project Run Development Mode ~  Faild to details Event',
+  stack: 'Error: Faild to details Event\n' +
+    '    at C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:97:11\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-22T07:12:38.117Z'
+}
+{
+  service: 'user-service',
+  level: 'info',
+  message: 'Project Run Development Mode ~  Faild to details Event',
+  stack: 'Error: Faild to details Event\n' +
+    '    at C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:97:11\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-22T07:12:44.137Z'
+}
+{
+  service: 'user-service',
+  level: 'info',
+  message: 'Project Run Development Mode ~  Faild to details Event',
+  stack: 'Error: Faild to details Event\n' +
+    '    at C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:97:11\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-22T07:12:45.266Z'
+}
+{
+  service: 'user-service',
+  level: 'info',
+  message: 'Project Run Development Mode ~  Faild to details Event',
+  stack: 'Error: Faild to details Event\n' +
+    '    at C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:97:11\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-22T07:12:46.290Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T07:13:07.819Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T07:13:07.830Z'
+}
+{
+  service: 'user-service',
+  level: 'info',
+  message: 'Project Run Development Mode ~  Faild to details Event',
+  stack: 'Error: Faild to details Event\n' +
+    '    at C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:97:11\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-22T07:13:15.334Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T07:14:26.139Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T07:14:26.150Z'
+}
+{
+  service: 'user-service',
+  level: 'info',
+  message: 'Project Run Development Mode ~  Faild to details Event',
+  stack: 'Error: Faild to details Event\n' +
+    '    at C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:97:11\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-22T07:14:26.508Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T07:14:37.323Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T07:14:37.334Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T07:15:09.089Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T07:15:09.099Z'
+}
+{
+  service: 'user-service',
+  level: 'info',
+  message: 'Project Run Development Mode ~  Faild to details Event',
+  stack: 'Error: Faild to details Event\n' +
+    '    at C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:97:11\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\server-site\\src\\apps\\modules\\event\\event.services.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-22T07:15:09.389Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T07:15:57.721Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T07:15:57.739Z'
+}

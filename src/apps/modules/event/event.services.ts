@@ -19,7 +19,7 @@ const createServices = async (
   return createEvent;
 };
 
-// get all event & query business logic
+// 02.get all event & query business logic
 const eventQuerysServices = async (
   filtering: IEventFilters,
   paginationOption: IPaginationOpton
@@ -84,7 +84,19 @@ const eventQuerysServices = async (
   };
 };
 
+//03. singel details Event business logic
+const detailsServices = async (id: string): Promise<IEventInterface | null> => {
+  const singelEvent = await EventModel.findOne({ id });
+
+  if (!singelEvent) {
+    throw new Error('Faild to details Event');
+  }
+
+  return singelEvent;
+};
+
 export const eventServices = {
   createServices,
   eventQuerysServices,
+  detailsServices,
 };

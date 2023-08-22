@@ -55,8 +55,23 @@ const getAllEventQuerys = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+//01. singel details  Event functionality
+const singelDetailsEvent = catchAsync(async (req: Request, res: Response) => {
+  const singelEvent = req.body.query;
+
+  const result = await eventServices.detailsServices(singelEvent);
+
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    data: result,
+    message: 'display details event successfully',
+  });
+});
+
 // exported there CreateEventController |  imported there event.createUserController.ts file |
 export const CreateEventController = {
   createEvent,
   getAllEventQuerys,
+  singelDetailsEvent,
 };

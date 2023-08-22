@@ -54,3 +54,31 @@
   label: 'UM',
   timestamp: '2023-08-22T06:27:07.029Z'
 }
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T06:33:40.051Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T06:33:40.063Z'
+}
+{
+  message: '📚 Database connected | All Ok',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T06:37:23.082Z'
+}
+{
+  message: 'Run Time listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-22T06:37:23.094Z'
+}

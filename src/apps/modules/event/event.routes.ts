@@ -16,6 +16,10 @@ router.post(
   validateRequest(eventValidation.createEventZodSchema),
   CreateEventController.createEvent
 );
-// 02.get all event & all querys
+
+//02. get singel event
+router.get('/:id', CreateEventController.singelDetailsEvent);
+
+// 03.get all event & all querys
 router.get('/', CreateEventController.getAllEventQuerys);
 export const EventRoutes = router;
