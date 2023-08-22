@@ -22,6 +22,8 @@ router.get('/:id', CreateEventController.singelDetailsEvent);
 
 //03. Edite singel event
 router.patch('/:id', CreateEventController.EditeEvent);
+//03. Edite singel event
+router.delete('/:id', CreateEventController.DeleteEvent);
 
 // 04.get all event & all querys
 router.get('/', CreateEventController.getAllEventQuerys);

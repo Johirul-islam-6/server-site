@@ -4,6 +4,7 @@ import { eventServices } from './event.services';
 import { sendResponse } from '../../../shared/sendResponse';
 import httpStatus from 'http-status';
 import { queryPick } from '../../../shared/quaryPick';
+import { EventModel } from './event.model';
 
 //## catchAsync is a costom Hook created | shared/catchAsync file |
 // ## sendResponse is a costom Hook reated | shared/sendResponse file |
@@ -69,7 +70,7 @@ const singelDetailsEvent = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
-//04.  edite  Event functionality
+//04.  Edite  Event functionality
 const EditeEvent = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id;
   const updateEventData = req.body;
@@ -84,10 +85,25 @@ const EditeEvent = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+//04.  edite  Event functionality
+const DeleteEvent = catchAsync(async (req: Request, res: Response) => {
+  const id = req.body.id;
+
+  const result = await EventModel.deleteOne(id);
+
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    data: result,
+    message: 'Delete event successfully',
+  });
+});
+
 // exported there CreateEventController |  imported there event.createUserController.ts file |
 export const CreateEventController = {
   createEvent,
   getAllEventQuerys,
   singelDetailsEvent,
   EditeEvent,
+  DeleteEvent,
 };
