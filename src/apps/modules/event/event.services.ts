@@ -95,8 +95,25 @@ const detailsServices = async (id: string): Promise<IEventInterface | null> => {
   return singelEvent;
 };
 
+//04. singel details Event business logic
+const editeServices = async (
+  id: string,
+  updateEventData: IEventInterface
+): Promise<IEventInterface | null> => {
+  const updateEvent = await EventModel.findByIdAndUpdate(id, updateEventData, {
+    new: true,
+  });
+
+  if (!updateEvent) {
+    throw new Error('Faild to Update Event');
+  }
+
+  return updateEvent;
+};
+
 export const eventServices = {
   createServices,
   eventQuerysServices,
   detailsServices,
+  editeServices,
 };

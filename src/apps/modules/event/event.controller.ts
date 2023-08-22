@@ -55,9 +55,9 @@ const getAllEventQuerys = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
-//01. singel details  Event functionality
+//03. singel details  Event functionality
 const singelDetailsEvent = catchAsync(async (req: Request, res: Response) => {
-  const singelEvent = req.body.query;
+  const singelEvent = req.body.id;
 
   const result = await eventServices.detailsServices(singelEvent);
 
@@ -69,9 +69,25 @@ const singelDetailsEvent = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+//04.  edite  Event functionality
+const EditeEvent = catchAsync(async (req: Request, res: Response) => {
+  const id = req.params.id;
+  const updateEventData = req.body;
+
+  const result = await eventServices.editeServices(id, updateEventData);
+
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    data: result,
+    message: 'Edited event successfully',
+  });
+});
+
 // exported there CreateEventController |  imported there event.createUserController.ts file |
 export const CreateEventController = {
   createEvent,
   getAllEventQuerys,
   singelDetailsEvent,
+  EditeEvent,
 };

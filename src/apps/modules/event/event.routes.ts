@@ -8,7 +8,7 @@ const router = express.Router();
 //  created a event a user
 // get all event & Querys pagination
 
-// =====> zod validation => controller => services - there all business logic implement
+// =====> every Route file navigateing => zod validation => controller => services - there all business logic implement
 
 //01.create a event
 router.post(
@@ -20,6 +20,9 @@ router.post(
 //02. get singel event
 router.get('/:id', CreateEventController.singelDetailsEvent);
 
-// 03.get all event & all querys
+//03. Edite singel event
+router.patch('/:id', CreateEventController.EditeEvent);
+
+// 04.get all event & all querys
 router.get('/', CreateEventController.getAllEventQuerys);
 export const EventRoutes = router;
