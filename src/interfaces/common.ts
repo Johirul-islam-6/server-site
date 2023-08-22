@@ -6,6 +6,7 @@ export type IgenericErrorRespons = {
   errorMessages: IGenericErrorMassage[];
 };
 
+// querys return value interface
 export type IGenaricRespons<T> = {
   meta: {
     page: number;

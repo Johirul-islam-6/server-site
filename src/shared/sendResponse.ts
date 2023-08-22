@@ -12,6 +12,7 @@ type IapiResponse<T> = {
   message?: string | null;
 };
 
+// constom sendREsponse
 export const sendResponse = <T>(res: Response, data: IapiResponse<T>): void => {
   const responseData: IapiResponse<T> = {
     statusCode: data.statusCode,

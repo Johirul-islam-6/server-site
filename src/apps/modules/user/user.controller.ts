@@ -22,7 +22,7 @@ const userCreated = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
-//03.========> login a user email, password ==========>
+//02.========> login a user email, password ==========>
 
 const loginAuth = catchAsync(async (req: Request, res: Response) => {
   const loginData = req.body;
