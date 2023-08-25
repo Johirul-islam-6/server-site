@@ -8,7 +8,7 @@ import { ApiError } from '../../errors/ApiError';
 import { ZodError } from 'zod';
 import handleZodError from '../../errors/handleZodError';
 import { handleCastError } from '../../errors/handleCastError';
-import { logger } from '../../shared/logger';
+// import { logger } from '../../shared/logger';
 
 export const globalErrorHandeler: ErrorRequestHandler = (
   error,
@@ -20,8 +20,8 @@ export const globalErrorHandeler: ErrorRequestHandler = (
 
   config.evn === 'development'
     ? // eslint-disable-next-line no-console
-      logger.info('Project Run Development Mode ~ ', error)
-    : logger.info('Project Run Production Mode ~ ', error);
+      console.log('Project Run Development Mode ~ ', error)
+    : console.log('Project Run Production Mode ~ ', error);
 
   let statusCode = 500;
   let message = 'somting went wront !';

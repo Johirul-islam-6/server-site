@@ -13,6 +13,7 @@ import config from '../../../config';
 //01. ==========> created an user functionality =========>
 const userCreated = catchAsync(async (req: Request, res: Response) => {
   const user = req.body;
+
   // export (user) user.services.ts file
   const result = await UserServices.createdUser(user);
 

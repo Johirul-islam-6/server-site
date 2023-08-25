@@ -34,6 +34,7 @@ const getAllEventQuerys = catchAsync(async (req: Request, res: Response) => {
     'start_date',
     'end_date',
     'email',
+    'cetagory',
   ]);
 
   // pagination option property field
@@ -46,7 +47,7 @@ const getAllEventQuerys = catchAsync(async (req: Request, res: Response) => {
     filtering,
     paginationOption
   );
-
+  console.log('inside data', result);
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
@@ -58,7 +59,7 @@ const getAllEventQuerys = catchAsync(async (req: Request, res: Response) => {
 
 //03. singel details  Event functionality
 const singelDetailsEvent = catchAsync(async (req: Request, res: Response) => {
-  const singelEvent = req.body.id;
+  const singelEvent = req.params.id;
 
   const result = await eventServices.detailsServices(singelEvent);
 

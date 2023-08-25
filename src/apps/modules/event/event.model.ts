@@ -30,6 +30,14 @@ const eventSchema = new Schema<IEventInterface>(
       type: String,
       required: true,
     },
+    image: {
+      type: String,
+      required: true,
+    },
+    cetagory: {
+      type: String,
+      required: true,
+    },
   },
   {
     timestamps: true,

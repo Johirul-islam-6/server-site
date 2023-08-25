@@ -22,7 +22,11 @@ router.post(
 router.get('/:id', CreateEventController.singelDetailsEvent);
 
 //03. Edite singel event8
-router.patch('/:id', CreateEventController.EditeEvent);
+router.patch(
+  '/:id',
+  validateRequest(eventValidation.EditeEventZodSchema),
+  CreateEventController.EditeEvent
+);
 //03. Edite singel event
 router.delete('/:id', CreateEventController.DeleteEvent);
 

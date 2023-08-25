@@ -86,7 +86,7 @@ const eventQuerysServices = async (
 
 //03. singel details Event business logic
 const detailsServices = async (id: string): Promise<IEventInterface | null> => {
-  const singelEvent = await EventModel.findOne({ id });
+  const singelEvent = await EventModel.findById(id);
 
   if (!singelEvent) {
     throw new Error('Faild to details Event');

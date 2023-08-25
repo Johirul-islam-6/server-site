@@ -46,8 +46,6 @@ const loginUser = async (payload: IUser): Promise<IUserLogin | null> => {
     config.jwt.refresh_expires_in as string
   );
 
-  console.log('cookies', accessToken, refreshToken);
-
   //  ## user password Match to the database Password
   const isPasswordMatch = await bcrypt.compare(password, isUserExist?.password);
 

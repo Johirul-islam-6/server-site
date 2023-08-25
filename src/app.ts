@@ -13,7 +13,13 @@ import cookieParser from 'cookie-parser';
 // import { ApiError } from './errors/ApiError'
 
 // cors use & cookieparse
-app.use(cors());
+app.use(
+  cors({
+    origin: 'http://localhost:5173',
+    methods: ['GET', 'POST', 'DELETE', 'PATCH'],
+    credentials: true, // Allow credentials (cookies, etc.)
+  })
+);
 app.use(cookieParser());
 
 // parser
@@ -26,10 +32,11 @@ app.use('/api/v1', router);
 app.get('/', (req: Request, res: Response) => {
   res.send('server is runing');
 });
+
 //global Error Handelar
 app.use(globalErrorHandeler);
 
-//handle route not found
+//route not found handlendeling
 app.use((req: Request, res: Response, next: NextFunction) => {
   res.status(httpStatus.NOT_FOUND).json({
     success: false,

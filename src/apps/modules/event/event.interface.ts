@@ -26,6 +26,8 @@ export type IEventInterface = {
   end_date: IAcademicSemesterMonth;
   location: string;
   email: string;
+  image: string;
+  cetagory: string;
 };
 
 // servecesfile parameter filter value interface searching value
