@@ -19,6 +19,21 @@ const createbookingEvent = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+//03. singel details  Event functionality
+const singelBookingEvent = catchAsync(async (req: Request, res: Response) => {
+  const getEvent = req.params.id;
+
+  const result = await bookingServices.detailsBooking(getEvent);
+
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    data: result,
+    message: 'display details event successfully',
+  });
+});
+
 export const eventBookingController = {
   createbookingEvent,
+  singelBookingEvent,
 };

@@ -17,4 +17,7 @@ router.post(
   eventBookingController.createbookingEvent
 );
 
+// get one event all booking user
+router.get('/:id', eventBookingController.singelBookingEvent);
+
 export const BookingRoute = router;

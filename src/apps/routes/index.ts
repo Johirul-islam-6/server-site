@@ -2,7 +2,7 @@
 import express from 'express';
 import { UserRoutes } from '../modules/user/user.routes';
 import { EventRoutes } from '../modules/event/event.routes';
-import { BookingRoute } from '../modules/event_booking/event_booking.routes';
+import { BookingRoute } from '../modules/booking/event_booking.routes';
 
 const router = express.Router();
 

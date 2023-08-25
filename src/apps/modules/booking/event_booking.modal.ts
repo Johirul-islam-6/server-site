@@ -1,8 +1,5 @@
 import { Schema, model } from 'mongoose';
-import {
-  IEventBooking,
-  IEventBookingModal,
-} from '../event_booking/event_booking.interface';
+import { IEventBooking, IEventBookingModal } from './event_booking.interface';
 
 // ## Create a User Schema Model corresponding to the document interface.
 
