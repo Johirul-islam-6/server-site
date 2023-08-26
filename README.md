@@ -102,7 +102,7 @@ id : '64e70b18f9c99f5d825f8575'
 
 ## <span style="color:#fa9644;">03. **A User Get All Event**</span>
 
-## <h3 style="color:#ffff;">02. _Get Event Searching Event [ title, location, event creator, start date, end date, etc] Pagination=value, Limite=value, Sorte=value, sortOrder=value, etc_</h3>
+## <h3 style="color:#ffff;"> # _Get Event Searching Event [ title, location, event creator, start date, end date, etc] Pagination=value, Limite=value, Sorte=value, sortOrder=value, etc_</h3>
 
 ```javaScript
 // Booking Event information
@@ -137,7 +137,7 @@ Get API Rquest Url : `https://event-managment-jade.vercel.app/api/v1/event/?sear
  }
 ```
 
-## <span style="color:#fa9644;">03. **A User Event Booking API**</span>
+## <span style="color:#fa9644;">04. **A User Event Booking API**</span>
 
 ```javaScript
 // Booking Event information
